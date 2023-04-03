@@ -1,0 +1,63 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1200px;
+}
+
+header{
+    background-color: blue;
+    height: 100px;
+}
+
+.container{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 25%;
+    height: 50px;
+    background-color: #DAA421;
+    border: 2px solid black;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    height: 50px;
+    background-color: #DAA421;
+    border: 2px solid black;
+}
+
+.login{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 10%;
+    height: 50px;
+    background-color: #DAA421;
+    border: 2px solid black;
+}
+
+
+
+
+
+/*
+container{
+width 70%;
+    margin: auto;
+    max-width:1200px;
+}
+*/
