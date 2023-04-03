@@ -3,12 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body{
     max-width: 1200px;
     width: 70%;
     margin: 0 auto;
     background-color: black;
+    
 }
 
 header{
@@ -21,6 +23,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 ul{
@@ -32,6 +35,8 @@ ul{
     height: 40px;
     background-color: #DAA421;
     border: 2px solid black;
+    border-style: dashed;
+
 }
 
 .logo{
@@ -41,6 +46,8 @@ ul{
     height: 40px;
     background-color: #DAA421;
     border: 2px solid black;
+    border-style: dashed;
+
 }
 
 .login{
@@ -51,6 +58,7 @@ ul{
     height: 40px;
     background-color: #DAA421;
     border: 2px solid black;
+    border-style: dashed;
 }
 
 
@@ -71,30 +79,35 @@ ul{
     height: 300px;
     background-color: #EE82EE;
     border: 2px solid black;
+    border-style: dashed;
+
 }
 
 
 .small{
     width: 800px;
     height: 300px;
+    border: 1px solid black;
+    border-style: dashed;
+
 }
 
 .white{
     background-color: white;
 }
 
-.row-blu{
-    width: 60%;
+.row-big{
+    width: 100%;
     height: 100%;
     background-color: #1F90FF;
-    border: 2px solid black;
 }
 
-.row-pink{
+.row-small{
     width: 40%;
     height: 100%;
     background-color:  #FFC0CB;
-    border: 2px solid black;
+    border: 1px solid black;
+    border-style: dashed;
 }
 
 .reverse{
@@ -119,8 +132,56 @@ ul{
     width: 100%;
     height: 100%;
     background-color: green;
+    border: 2px solid black;
+    border-style: dashed;
+}
+
+
+footer{
+    background-color: #23272A;
+}
+
+.row-salmon{
+    background-color: salmon;
+    width: 40%;
+    height: 100%;
     border: 1px solid black;
 }
+
+.row-green{
+    width: 100%;
+    height: 100%;
+    background-color: green;
+}
+
+.collumn{
+    width: 25%;
+    height: 100%;
+    border: 1px solid white;
+    border-style: dashed;
+
+}
+
+.low-page{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: #AED8E6;
+    height: 100px;
+}
+
+
+.start{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.end{
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 
 /*
