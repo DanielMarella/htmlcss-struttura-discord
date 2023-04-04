@@ -130,7 +130,6 @@ ul{
     border-style: dashed;
 }
 
-
 footer{
     background-color: #23272A;
 }
@@ -140,6 +139,7 @@ footer{
     width: 40%;
     height: 100%;
     border: 1px solid black;
+    border-style: dashed;
 }
 
 .row-green{
@@ -156,11 +156,6 @@ footer{
 
 }
 
-
-
-
-
-
 .low-page{
     background-color: #7EFFD4;
     width: 800px;
@@ -172,16 +167,12 @@ footer{
 }
 
 
-
-.low-logo{
-    background-color: #FFB6C1;
-    border: 2px solid black;
-    display: flex;
-}
-
+.low-logo,
 .low-button{
     display: flex;
     background-color: #FFB6C1;
     border: 2px solid black;
+    border-style: dashed;
 }
+
 
