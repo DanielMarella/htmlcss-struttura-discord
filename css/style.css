@@ -20,47 +20,42 @@ header{
 
 .navigation{
     height: 100px;
-    display: flex;
     justify-content: center;
     align-items: center;
+}
 
+.navigation,
+ul,
+.logo,
+.login{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: #DAA421;
 }
 
 ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 10px;
     list-style-type: none;
     width: 40%;
-    height: 40px;
-    background-color: #DAA421;
+    border-style: dashed;
+}
+
+.logo,
+.login{
+    width: 15%;
     border: 2px solid black;
     border-style: dashed;
-
 }
 
 .logo{
-    display: flex;
     align-items: center;
-    width: 15%;
-    height: 40px;
-    background-color: #DAA421;
-    border: 2px solid black;
-    border-style: dashed;
-
 }
 
 .login{
-    display: flex;
     justify-content: flex-end;
-    align-items: center;
-    width: 15%;
-    height: 40px;
-    background-color: #DAA421;
-    border: 2px solid black;
-    border-style: dashed;
 }
-
 
 .blu{
     background-color: #000D8B;
@@ -162,35 +157,31 @@ footer{
 }
 
 
+
+
+
+
 .low-page{
-    margin: auto;
     background-color: #7EFFD4;
     width: 800px;
-    height: 100px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.footer-page{
-    background-color: #7EFFD4;
-    height: 50px;
-    width: 800px;
-}
+
 
 .low-logo{
-    float: right;
-    height: 100%;
     background-color: #FFB6C1;
     border: 2px solid black;
-    
+    display: flex;
 }
 
 .low-button{
-    float: left;
+    display: flex;
     background-color: #FFB6C1;
     border: 2px solid black;
 }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
